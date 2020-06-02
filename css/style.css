@@ -1,0 +1,54 @@
+body {
+  margin-top: 6.5rem; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #D06C6C;
+  opacity: .9;
+  background: #fff; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem; }
+
+#showcase {
+  position: relative;
+  background: url(../img/pink-sky-cover.jpg);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  min-height: 600px; }
+  #showcase .primary-overlay {
+    background: rgba(208, 108, 108, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px solid #ddd; }
+
+#authors img {
+  margin-top: -60px; }
+#authors .card:hover {
+  background: #D06C6C;
+  color: #fff; }
+#authors .lab {
+  color: white; }
+
+footer {
+  opacity: 0.8;
+}
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 4rem; }
+
+  .mb-resp {
+    margin-bottom: 1rem; } }
+@media (max-width: 430px) {
+  #showcase {
+    min-height: 400px; }
+    #showcase h1 {
+      font-size: 2rem; } }
